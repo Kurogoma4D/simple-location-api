@@ -29,3 +29,5 @@ app.post(
     res.status(422).send({ error: 'Some location data must be provided.' });
   }
 );
+
+export default app;
